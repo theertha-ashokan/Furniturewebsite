@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+     /* font-family: "Oswald", sans-serif; */
+      font-family: "Edu NSW ACT Hand Pre", cursive;
+
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+}
+
+:root {
+    --x: rgb(107, 5, 5);
+}
+
+#nav-btn {
+    background-color: var(--x);
+    color: white;
+}
+
+#nav-btn:hover {
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+li i {
+    color: rgb(195, 193, 193);
+}
+
+li i:hover {
+    color: rgb(215, 212, 212);
+}
+
+#main {
+    background-image: url("./images/img1.jpg");
+    /* height: 120vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#wel {
+    padding-top: 22%;
+    padding-left: 5%;
+}
+
+#wel h4 {
+    font-size: 30px;
+}
+
+#wel h1 {
+    font-size: 100px;
+}
+
+@media(max-width:992px) {
+    #main {
+        background-position: bottom;
+    }
+
+    #wel h4 {
+        font-size: 20px;
+
+    }
+
+    #wel h1 {
+        font-size: 50px;
+    }
+}
+#backg{
+    background-color: rgba(0, 0, 0, 0.023);
+    height: 150vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+ #work{
+    padding-top:10%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIRBjXUnIyFKFH5UymkMqntEdYVtWehVMUOg&s");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+}
+.viewbtn{
+   border: 2px solid var(--x); 
+   color:var(--x)
+
+}
+.viewbtn:hover{
+    background-color: var(--x);
+    color:white;
+}
+/* .card-body a:hover{
+   border: 2px solid var(--x); 
+   background-color: var(--x); 
+   color: white;
+} */
+#about{
+    background-color: rgba(226, 232, 238, 0.607);
+    padding: 10% 0%;
+}
+#gallery{
+    border: 7px solid var(--x);
+    width: 90%;
+    height: 490px;
+    padding-left: 4%;
+    padding-top: 4%;
+
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 20%;
+    height: 0.25rem;
+}
+#about p{
+    text-align: justify;
+
+}
+.imgposition{
+    position: relative;
+}
+.imgposition div{
+    position: absolute;
+    bottom: 0;
+    
+}
+#galleryview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(49, 48, 48);
+}
